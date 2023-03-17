@@ -12,12 +12,12 @@
 
 int main(void)
 {
-	int n;
+	int n, lastDig;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	int lastDig = n % 10;
+	lastDig = n % 10;
 
 	if (lastDig > 5)
 	{

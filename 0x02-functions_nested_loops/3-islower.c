@@ -6,7 +6,7 @@
 * Return: return (0) Success
 */
 
-int islower(int c)
+int _islower(int c)
 {
 	if (c > 'a' && c < 'z')
 	{

@@ -2,7 +2,6 @@
 /**
 * print_line - program draws a straight line in the terminal.
 * @n: print int
-* @i: stores integer
 *
 * Return: return (0) Success
 */

@@ -23,7 +23,7 @@ int main(void)
 		ascii -= randNum;
 		i++;
 	}
-	if (ascii > 0)
+	if (ascii >= 0)
 		p_word[i] = ascii;
 	else
 	{
@@ -33,7 +33,8 @@ int main(void)
 
 	for (j = 0; j <= i; j++)
 	{
-		printf("%c", p_word[j]);
+		if (p_word[j] != '\0')
+			printf("%c", p_word[j]);
 	}
 	return (0);
 }

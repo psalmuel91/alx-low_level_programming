@@ -4,7 +4,6 @@
 * _strchr - function locates a character in a string
 * @s: Argument pointer
 * @c: Argument pointer
-* @n: Argument variable n holds integer size
 *
 *Return: return s
 */

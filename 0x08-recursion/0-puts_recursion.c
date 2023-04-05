@@ -9,20 +9,15 @@
 
 void _puts_recursion(char *s)
 {
-/**	int idx = 0;
-*
-*	while (s[idx] != '\0')
-*	{
-*		_putchar(s[idx]);
-*		idx++;
-*	}
-*	_putchar('\n');
-*/
+	/* Establish a base case */
 	if (*s == '\0')
 	{
 		_putchar('\n');
-		return ;
+		return;
 	}
+	/* prints characters here */
 	_putchar(*s);
+
+	/* Recursive call here */
 	_puts_recursion(s + 1);
 }

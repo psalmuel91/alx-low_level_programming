@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-* print_chessboard - Program is a function that prints the sum of the two diagonals of a 
-* square matrix of integers.
+* print_chessboard - Program is a function that prints the sum
 * @a: Argument pointer to character board
+*
 * Return: return (0) success
 */
 

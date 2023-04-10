@@ -1,5 +1,5 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 
 /**
 * main - Program builds a function that fills memory with a constant byte
@@ -11,11 +11,7 @@
 
 int main(int argc, char *argv[])
 {
-	int i = 0;
-	for (; i < argc; i++)
-	{
-		printf("%s\n", argv[i]);
-	}
+	printf("%s\n", argv[argc *0]);
 
 	return (0);
 }

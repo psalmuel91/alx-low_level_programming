@@ -6,7 +6,7 @@
 * @s1: Argument pointer holds string
 * @s2: Argument pointer holds string
 *
-* Return: return nothing if base case
+* Return: return string pointer
 */
 
 char *str_concat(char *s1, char *s2)
@@ -16,7 +16,7 @@ char *str_concat(char *s1, char *s2)
 
 	if (s1 == NULL)
 		s1 = nul;
-	else if (s2 == NULL)
+	if (s2 == NULL)
 		s2 = nul;
 
 	while (*(s1 + strl1))

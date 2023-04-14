@@ -4,9 +4,6 @@
 /**
 * main - All prototype resides here for linkage
 * @c: argument with variable char
-* @b: pointer argument
-* @s: pointer argument
-* @n: integer n-byte size
 *
 * Return: return (0) Success
 */

@@ -1,8 +1,7 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
+
 /**
-* array - Program defines a function that creates an array of integers
+* array_range - Program defines a function that creates an array of integers
 * @min: Argument variable holds integer
 * @max: Argument variable holds integer
 *

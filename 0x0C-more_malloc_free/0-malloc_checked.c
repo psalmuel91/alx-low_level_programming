@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
-* malloc_checked - Program defines a function that allocates
-* memory using malloc
+* malloc_checked - Program defines a function that allocates memory
 * @b: Argument variable holds status integer
 *
 * Return: returns address

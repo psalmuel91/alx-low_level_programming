@@ -1,5 +1,6 @@
 #include "main.h"
-
+#include <stdio.h>
+#include <stdlib.h>
 /**
 * array_range - Program defines a function that creates an array of integers
 * @min: Argument variable holds integer
@@ -22,7 +23,7 @@ int *array_range(int min, int max)
 
 	for (idx = 0; min <= max ; idx++)
 	{
-		mem[idx] = min;
+		memAddr[idx] = min;
 		min++;
 	}
 

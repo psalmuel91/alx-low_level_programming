@@ -5,7 +5,7 @@
  * @x: First Number
  * @y: Second Number
  *
- * Return: Sum of a and b
+ * Return: Sum of x and y
  */
 int op_add(int x, int y)
 {
@@ -14,10 +14,10 @@ int op_add(int x, int y)
 
 /**
  * op_sub - Substracts two numbers
- * @a: First Number
- * @b: Second Number
+ * @x: First Number
+ * @x: Second Number
  *
- * Return: Substraction of a and b
+ * Return: Substraction of x and y
  */
 
 int op_sub(int x, int y)
@@ -27,10 +27,10 @@ int op_sub(int x, int y)
 
 /**
  * op_mul - Multiplies two numbers
- * @a: First Number
- * @b: Second Number
+ * @x: First Number
+ * @y: Second Number
  *
- * Return: Multiplication of a and b
+ * Return: Multiplication of x and y
  */
 
 int op_mul(int x, int y)
@@ -40,10 +40,10 @@ int op_mul(int x, int y)
 
 /**
  * op_div - Divides two numbers
- * @a: First Number
- * @b: Second Number
+ * @x: First Number
+ * @y: Second Number
  *
- * Return: Division of a and b
+ * Return: Division of x and y
  */
 int op_div(int x, int y)
 {
@@ -52,10 +52,10 @@ int op_div(int x, int y)
 
 /**
  * op_mod - Modulus of two numbers
- * @a: First Number
- * @b: Second Number
+ * @x: First Number
+ * @y: Second Number
  *
- * Return: Modulus of a and b
+ * Return: Modulus of x and y
  */
 int op_mod(int x, int y)
 {

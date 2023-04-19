@@ -1,5 +1,5 @@
-#ifndef MAIN_HEADER_FILE
-#define MAIN_HEADER_FILE
+#ifndef FUNCTIONS_HEADER_FILE
+#define FUNCTIONS_HEADER_FILE
 
 /**
 * main - All prototype resides here for linkage
@@ -9,6 +9,7 @@
 */
 
 int _putchar(char c);
+typedef __SIZE_TYPE__ size_t;
 void print_name(char *name, void (*f)(char *));
 void array_iterator(int *array, size_t size, void (*action)(int));
 

@@ -1,5 +1,5 @@
 /**
-* Description: A 64-bit program in assembly that
+* Description - A 64-bit program in assembly that
 * prints Hello, Holberton.
 */
 

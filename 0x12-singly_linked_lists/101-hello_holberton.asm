@@ -15,4 +15,5 @@ main:
 	ret
 
 section .data
-	msg: db "Hello, Holberton", 0xa, 0
+	msg: db "Hello, Holberton", 0
+	fmt: db "%s", 20, 0

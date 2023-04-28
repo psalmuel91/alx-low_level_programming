@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
-* add_node: Function adds a new node at the beginning
+* add_node -  Function adds a new node at the beginning
 *            of a list_t list.
 * @head: First node of the list_t list.
 * @str: Element of the list_t list.

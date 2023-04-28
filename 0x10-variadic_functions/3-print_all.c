@@ -2,6 +2,15 @@
 #include <stdio.h>
 #include <stdarg.h>
 
+/**
+* @print_char: function char argument
+* @print_int: function int argument
+* @print_float: function float argument
+* @print_string: function string argument
+* @print_all: function for all argument
+* @arg: A list of arguments pointing to all
+*/
+
 void print_char(va_list arg);
 void print_int(va_list arg);
 void print_float(va_list arg);
@@ -9,10 +18,10 @@ void print_string(va_list arg);
 void print_all(const char * const format, ...);
 
 /**
- * print_char: Prints a char.
- * @arg: A list of arguments pointing to
- *       the character to be printed.
- */
+* print_char: Prints a char.
+* @arg: A list of arguments pointing to
+*       the character to be printed.
+*/
 
 void print_char(va_list arg)
 {
@@ -23,10 +32,10 @@ void print_char(va_list arg)
 }
 
 /**
- * print_int: Prints an int.
- * @arg: A list of arguments pointing to
- *       the integer to be printed.
- */
+* print_int: Prints an int.
+* @arg: A list of arguments pointing to
+*       the integer to be printed.
+*/
 
 void print_int(va_list arg)
 {
@@ -37,10 +46,10 @@ void print_int(va_list arg)
 }
 
 /**
- * print_float: Prints a float.
- * @arg: A list of arguments pointing to
- *       the float to be printed.
- */
+* print_float: Prints a float.
+* @arg: A list of arguments pointing to
+*       the float to be printed.
+*/
 
 void print_float(va_list arg)
 {
@@ -51,10 +60,10 @@ void print_float(va_list arg)
 }
 
 /**
- * print_string: Prints a string.
- * @arg: A list of arguments pointing to
- *       the string to be printed.
- */
+* print_string: Prints a string.
+* @arg: A list of arguments pointing to
+*       the string to be printed.
+*/
 
 void print_string(va_list arg)
 {
@@ -72,14 +81,14 @@ void print_string(va_list arg)
 }
 
 /**
- * print_all: Prints anything && a new line.
- * @format: A string of characters representing the argument types.
- * @...: A variable number of arguments to be printed.
- *
- * Description: Any argument not of type char, int, float,
- *              or char * is ignored.
- *              If a string argument is NULL, (nil) is printed instead.
- */
+* print_all: Prints anything && a new line.
+* @format: A string of characters representing the argument types.
+* @...: A variable number of arguments to be printed.
+*
+* Description: Any argument not of type char, int, float,
+*              or char * is ignored.
+*              If a string argument is NULL, (nil) is printed instead.
+*/
 
 void print_all(const char * const format, ...)
 {

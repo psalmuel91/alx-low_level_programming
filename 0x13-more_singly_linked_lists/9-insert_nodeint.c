@@ -1,9 +1,10 @@
 #include "lists.h"
 
 /**
-* insert_nodeint_at_index - Function inserts a new node at given position in a list.
+* insert_nodeint_at_index - Function inserts a new node at
+*							given position in a list.
 * @head: Pointer to the pointer of first node.
-* idx: Index of nodes on list.
+* @idx: Index of nodes on list.
 * @n: Variable holds integer.
 *
 * Return: return NULL if adding is not possible.

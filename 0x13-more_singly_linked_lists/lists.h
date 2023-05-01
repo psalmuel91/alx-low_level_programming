@@ -2,19 +2,16 @@
 #define LISTS_HEADER_FILES
 
 /*
- * Description: Header file containing prototypes and definitions for all functions
- *       in 0x12-more_singly_linked_lists.
+ * Description: Header file containing prototypes and definitions for
+ *				all functions in 0x12-more_singly_linked_lists.
  */
 
 #include <stdlib.h>
 
 /**
-* struct listint_s: Singly linked list
+* struct listint_s - Singly linked list
 * @n: Variable holds integer
 * @next: Points to the next node
-* @h: Pointer variable to first node
-* @head: Pointer to Pointer to first node
-* @idx: Variable holds index of node
 *
 * Description: singly linked list node structure
 */

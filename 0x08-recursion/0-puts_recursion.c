@@ -9,14 +9,14 @@
 
 void _puts_recursion(char *s)
 {
-	/* Establish a base case */
+	/* Establish a base case, if it's not EOF */
 	if (*s == '\0')
 	{
 		_putchar('\n');
 		return;
 	}
-	/* prints characters here */
-	if (!(*s == ' '))
+	/* prints characters here, until EOF */
+	else if (!(*s == '\0'))
 	{
 		_putchar(*s);
 	}

@@ -16,7 +16,7 @@ void _puts_recursion(char *s)
 		return;
 	}
 	/* prints characters here */
-	if (!(*s == ' '))
+	if (!(*s == '\0'))
 	{
 		_putchar(*s);
 	}
@@ -24,6 +24,7 @@ void _puts_recursion(char *s)
 	{
 		_putchar('\n');
 	}
+
 
 	/* Recursive call here */
 	_puts_recursion(s + 1);

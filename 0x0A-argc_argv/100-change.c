@@ -14,7 +14,6 @@ int main(int argc, char *argv[])
 {
 	int total, count;
 	unsigned int idx;
-	/* char *ptr; */
 	int cents[] = {25, 10, 5, 2, 1};
 
 	if (argc != 2)
@@ -23,32 +22,25 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	/* total = strtol(argv[1], &ptr, 10); */
 	total = atoi(argv[1]);
 	count = 0;
 
-	/* if (!*ptr)
-	{ */
-		while (total > 1)
+	while (total > 1)
+	{
+		for (idx = 0; idx < sizeof(cents[idx]); idx++)
 		{
-			for (idx = 0; idx < sizeof(cents[idx]); idx++)
+			if (total >= cents[idx])
 			{
-				if (total >= cents[idx])
-				{
-					count += total / cents[idx];
-					total = total % cents[idx];
-				}
+				count += total / cents[idx];
+				total = total % cents[idx];
 			}
 		}
-		if (total == 1)
-			count++;
-	/* }
-	else
-	{
-		printf("Error\n");
-		return (1);
-	} */
+	}
+
+	if (total == 1)
+		count++;
 
 	printf("%d\n", count);
+
 	return (0);
 }

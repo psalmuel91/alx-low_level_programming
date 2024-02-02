@@ -2,9 +2,9 @@
 #define LISTS_H
 
 /*
-* Desc: header file containing prototypes and func defs
-*	for this project
-*/
+ * Desc: header file containing prototypes and func
+ *	definitions for this project
+ */
 
 #include <stdlib.h>
 
